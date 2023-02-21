@@ -1,0 +1,801 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Asynchronous Emails\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-16 01:02+0200\n"
+"PO-Revision-Date: 2023-02-16 01:02+0200\n"
+"Last-Translator: dhadmin <mohamed@email.ly>\n"
+"Language-Team: Arabic\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && "
+"n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: ../..\n"
+"X-Poedit-KeywordsList: __;esc_html__;esc_html_e\n"
+"X-Loco-Version: 2.3.0; wp-5.2.3\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/views/assets\n"
+
+#: helpers/plugin-helper.php:104
+msgid "New"
+msgstr "جديد"
+
+#: helpers/plugin-helper.php:105
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+#: helpers/plugin-helper.php:106
+msgid "Processing"
+msgstr "قيد التنفيذ"
+
+#: helpers/plugin-helper.php:107
+msgid "Failed"
+msgstr "فشل"
+
+#: helpers/plugin-helper.php:108
+msgid "Cancelled"
+msgstr "ملغية"
+
+#: helpers/plugin-helper.php:109
+msgid "Completed"
+msgstr "مكتمل"
+
+#: includes/adminarea.php:76
+msgid "Are you sure you want to delete the record?"
+msgstr "هل أنت متأكد من حذف السجل؟"
+
+#: includes/adminarea.php:77
+msgid "Are you sure you want to send the email again?"
+msgstr "هل أنت متأكد من إعادة ارسال البريد الاكتروني؟"
+
+#: includes/adminarea.php:92
+msgid "Asynchronous emails"
+msgstr "البريد الإلكتروني غير المتزامن"
+
+#: includes/adminarea.php:95
+msgid "Queues"
+msgstr "قوائم الانتظار"
+
+#: includes/adminarea.php:101 resources/views/components/settings/app.vue.php:15
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: includes/ajax.php:39 includes/ajax.php:66 includes/ajax.php:98
+#: includes/ajax.php:131 includes/ajax.php:151
+msgid "Token mismatch, please refresh the page"
+msgstr "رمز الصفحة غير مطابق ، يرجى تحديث الصفحة"
+
+#: includes/ajax.php:78
+msgid "The record deleted successfully"
+msgstr "تم حذف السجل بنجاح"
+
+#: includes/ajax.php:84
+msgid "The record cannot be deleted"
+msgstr "لا يمكن حذف السجل"
+
+#: includes/ajax.php:111
+msgid "The record marked as new to resend again"
+msgstr "تم وضع علامة على السجل كجديد لإعادة الإرسال مرة أخرى"
+
+#: includes/ajax.php:118
+msgid "A record cannot be marked as new"
+msgstr "لا يمكن تعيين السجل لإعادة ارساله"
+
+#: includes/ajax.php:161
+msgid "Maximum attempts must be equal to or greater than 1"
+msgstr "يجب أن يكون الحد الأقصى للمحاولات مساويًا أو أكبر من 1"
+
+#: includes/ajax.php:170
+msgid "The maximum age of the queue record must be in a valid period"
+msgstr "يجب أن يكون الحد الأقصى لمدة سجل قائمة الانتظار في مدة صحيحة"
+
+#: includes/ajax.php:183
+msgid "Settings updated successfully"
+msgstr "تم تحديث الإعدادات بنجاح"
+
+#: resources/views/components/queue/app.vue.php:15
+msgid "Queues email list"
+msgstr "قوائم انتظار البريد الإلكتروني"
+
+#: resources/views/components/queue/app.vue.php:18
+msgid ""
+"Stay informed with real-time updates on the status of your asynchronous emails."
+msgstr ""
+"ابق على اطلاع بالتحديثات في الوقت الفعلي حول حالة رسائل البريد الإلكتروني غير "
+"المتزامنة."
+
+#: resources/views/components/queue/app.vue.php:40
+msgid "Warning: The asynchronous scheduler has been disabled in the settings."
+msgstr "ملاحظة: تم تعطيل إرسال البريد الإلكتروني غير المتزامن في الإعدادات."
+
+#: resources/views/components/queue/app.vue.php:54
+msgid "Date"
+msgstr "تاريخ"
+
+#: resources/views/components/queue/app.vue.php:63
+#: resources/views/components/queue/app.vue.php:95
+msgid "Status"
+msgstr "الحالة"
+
+#: resources/views/components/queue/app.vue.php:66
+msgid "Any"
+msgstr "الكل"
+
+#: resources/views/components/queue/app.vue.php:86
+msgid "Count"
+msgstr "العدد"
+
+#: resources/views/components/queue/app.vue.php:93
+msgid "#"
+msgstr "#"
+
+#: resources/views/components/queue/app.vue.php:94
+msgid "Email"
+msgstr "البريد الإلكتروني"
+
+#: resources/views/components/queue/app.vue.php:96
+msgid "Response"
+msgstr "الاستجابة"
+
+#: resources/views/components/queue/app.vue.php:97
+msgid "Created at"
+msgstr "تاريخ الانشاء"
+
+#: resources/views/components/queue/app.vue.php:98
+msgid "Updated at"
+msgstr "‫‫تاريخ التحديث"
+
+#: resources/views/components/queue/app.vue.php:99
+msgid "Actions"
+msgstr "الإجراءات"
+
+#: resources/views/components/queue/app.vue.php:124
+msgid "Delete"
+msgstr "حذف"
+
+#: resources/views/components/queue/app.vue.php:127
+msgid "Deleting..."
+msgstr "جار الحذف…"
+
+#: resources/views/components/queue/app.vue.php:136
+msgid "Resend"
+msgstr "إعادة ارسال"
+
+#: resources/views/components/queue/app.vue.php:139
+msgid "Resending..."
+msgstr "إعادة الإرسال …"
+
+#: resources/views/components/queue/app.vue.php:146
+msgid "No records found."
+msgstr "لاتوجد نتائج."
+
+#: resources/views/components/settings/app.vue.php:30
+msgid "Active"
+msgstr "مفعل"
+
+#: resources/views/components/settings/app.vue.php:35
+msgid "Set emails as asynchronous"
+msgstr "تفعيل ضبط رسائل البريد الإلكتروني على أنها غير متزامنة"
+
+#: resources/views/components/settings/app.vue.php:42
+msgid "Max attempts"
+msgstr "أقصى عدد من المحاولات"
+
+#: resources/views/components/settings/app.vue.php:48
+msgid ""
+"The maximum number of attempts for a failed task before it is set as canceled"
+msgstr "الحد الأقصى لعدد المحاولات لمهمة فاشلة قبل أن يتم تعيينها على أنها ملغية"
+
+#: resources/views/components/settings/app.vue.php:56
+msgid "Delete records older than"
+msgstr "احذف السجلات التي مضى عليها أكثر من"
+
+#: resources/views/components/settings/app.vue.php:61
+msgid "one day"
+msgstr "يوم واحد"
+
+#: resources/views/components/settings/app.vue.php:62
+msgid "2 days"
+msgstr "يومين"
+
+#: resources/views/components/settings/app.vue.php:63
+msgid "7 days"
+msgstr "7 أيام"
+
+#: resources/views/components/settings/app.vue.php:64
+msgid "15 days"
+msgstr "15 يوم"
+
+#: resources/views/components/settings/app.vue.php:65
+msgid "a month"
+msgstr "شهر"
+
+#: resources/views/components/settings/app.vue.php:68
+msgid ""
+"Automatically delete records that are older than the specified time period"
+msgstr "حذف السجلات الأقدم من الفترة الزمنية المحددة تلقائيًا"
+
+#: resources/views/components/settings/app.vue.php:78
+msgid "Save Changes"
+msgstr "حفظ التغييرات"
+
+#: resources/views/components/settings/app.vue.php:79
+msgid "Saving"
+msgstr "جاري الحفظ"
+
+#: resources/views/components/shared/pagination.vue.php:15
+msgid "records"
+msgstr "نتائج"
+
+#: resources/views/components/shared/pagination.vue.php:16
+msgid "Page"
+msgstr "صفحة"
+
+#: resources/views/components/shared/pagination.vue.php:16
+msgid "of"
+msgstr "من"
+
+#: resources/views/components/shared/pagination.vue.php:21
+msgid "Previous page"
+msgstr "الصفحة السابقة"
+
+#~ msgid "Submit"
+#~ msgstr "حفظ"
+
+#~ msgid "Submitting"
+#~ msgstr "قيد الحفظ"
+
+#~ msgid "Cancel"
+#~ msgstr "إلغاء"
+
+#~ msgid "Retry"
+#~ msgstr "إعادة المحاولة"
+
+#~ msgid "7 Days"
+#~ msgstr "7 أيام"
+
+#~ msgid "15 Days"
+#~ msgstr "15 يوم"
+
+#~ msgid "Emails List"
+#~ msgstr "قائمة ‫البريد الالكتروني"
+
+#~ msgid "Emails"
+#~ msgstr "‫البريد الالكتروني"
+
+#~ msgid "Logout successfully"
+#~ msgstr "تم تسجيل الخروج بنجاح"
+
+#~ msgid "Social login is not allowed"
+#~ msgstr "تسجيل الدخول الاجتماعي غير مسموح به"
+
+#~ msgid "Social sign-up is not allowed"
+#~ msgstr "التسجيل الاجتماعي غير مسموح به"
+
+#~ msgid "Something went wrong"
+#~ msgstr "حدث خطأ ما"
+
+#~ msgid "Your cart is empty."
+#~ msgstr "السلة فارغة."
+
+#~ msgid "Missing fields."
+#~ msgstr "جميع حقول عنوان الشحن مطلوبة."
+
+#~ msgid "Please choose valid payment method."
+#~ msgstr "أختر طريقة دفع."
+
+#~ msgid "Invalid city."
+#~ msgstr "المدينة غير صحيحة."
+
+#~ msgid "Order does not created"
+#~ msgstr "لم يتم انشاء الطلب"
+
+#~ msgid "Order does not exist"
+#~ msgstr "الطلب غير موجود"
+
+#~ msgid "Thank you. Your order has been received."
+#~ msgstr "شكراً. تم إستلام طلبك."
+
+#~ msgid "payment_method is required."
+#~ msgstr "طريقة الدفع مطلوبة."
+
+#~ msgid "order_id is required."
+#~ msgstr "‫order_id مطلوب."
+
+#~ msgid ""
+#~ "Order had already received payment. Multiple payment to the same order is "
+#~ "not allowed"
+#~ msgstr "الدفع المتكرر لنفس الطلب غير مسموح به"
+
+#~ msgid "Payment method is not available for this city"
+#~ msgstr "طريقة الدفع غير مسموح بها للمدينة"
+
+#~ msgid "Thank you. please complete your payment order."
+#~ msgstr "الرجاء إكمال عملية الدفع."
+
+#~ msgid "Thank you. your order has been completed."
+#~ msgstr "تم إستلام طلبك، شكراً لك."
+
+#~ msgid "Order does not exist."
+#~ msgstr "الطلب غير موجود."
+
+#~ msgid "Mobile phone number already exist."
+#~ msgstr "رقم الهاتف موجود مسبقاً."
+
+#~ msgid "Shipping details has been successfully updated."
+#~ msgstr "تم تحديث بيانات عنوان الشحن بنجاح."
+
+#~ msgid "Coupons are disabled"
+#~ msgstr "القسائم معطلة"
+
+#~ msgid "coupon_code is required."
+#~ msgstr "رمز القسيمة مطلوب مطلوب."
+
+#~ msgid "Coupon is already applied"
+#~ msgstr "هذة القسيمة مطبقة بالفعل"
+
+#~ msgid "Coupon does not exist!."
+#~ msgstr "القسيمة غير موجودة."
+
+#, php-format
+#~ msgid "%s Coupon code applied successfully."
+#~ msgstr "تم تطبيق القسيمة %s بنجاح."
+
+#, php-format
+#~ msgid "%s Coupon code doesn\\'t applied."
+#~ msgstr "لم يتم تطبيق القسيمة %s."
+
+#, php-format
+#~ msgid "%s Coupon code has been removed."
+#~ msgstr "تم مسح القسيمة %s."
+
+#, php-format
+#~ msgid "%s Coupon can not removed."
+#~ msgstr "لايمكن مسح القسيمة %s."
+
+#~ msgid "Free shipping coupon"
+#~ msgstr "قسيمة شحن مجاني"
+
+#~ msgid "product_id is required."
+#~ msgstr "‏product_id مطلوب."
+
+#~ msgid "variation_id is required."
+#~ msgstr "‏مواصفات المنتج مطلوبة."
+
+#~ msgid "Product is not exist"
+#~ msgstr "المنتج غير موجود‪"
+
+#~ msgid "Product is Out of Stock"
+#~ msgstr "الكمية غير متوفرة بالمخزن"
+
+#, php-format
+#~ msgid ""
+#~ "Product %s is sold individually, you can only purchase one item per order"
+#~ msgstr "يباع المنتج %s بشكل فردي ، يمكنك فقط شراء منتج واحد لكل طلب"
+
+#, php-format
+#~ msgid "%s not added."
+#~ msgstr "لم تتم إضافة %s للسلة."
+
+#, php-format
+#~ msgid "%s has been added to cart."
+#~ msgstr "تمت إضافة %s للسلة."
+
+#, php-format
+#~ msgid "Product %s quantity is not updated"
+#~ msgstr "لم يتم تحديث كمية المنتج %s"
+
+#, php-format
+#~ msgid "Product %s quantity has been updated in your cart"
+#~ msgstr "تم تحديث الكمية للمنتج %s بنجاح"
+
+#, php-format
+#~ msgid "Product %s does not exist in your cart"
+#~ msgstr "المنتج %s غير موجود في السلة"
+
+#, php-format
+#~ msgid "Product %s has been removed from your cart"
+#~ msgstr "تم إزالة المنتج %s من السلة"
+
+#, php-format
+#~ msgid "Product %s not removed from your cart"
+#~ msgstr "لم يتم إزالة المنتج %s من السلة"
+
+#~ msgid "Cart has been cleared"
+#~ msgstr "تم مسح السلة"
+
+#, php-format
+#~ msgid "Payment method has been changed to %s"
+#~ msgstr "تم تغيير طريقة الدفع إلى %s"
+
+#~ msgid "id is required."
+#~ msgstr "‫id مطلوب."
+
+#~ msgid "Order does not cancelled."
+#~ msgstr "لم يتم إلغاء الطلب."
+
+#~ msgid "Order cancelled by customer."
+#~ msgstr "‫Order cancelled by customer."
+
+#~ msgid "Order has been cancelled."
+#~ msgstr "تم ‫إلغاء الطلب."
+
+#~ msgid "Product doesn't exist."
+#~ msgstr "المنتج غير موجود."
+
+#~ msgid "rating is required."
+#~ msgstr "الرجاء تقييم المنتج."
+
+#~ msgid "rating from 1 to 5."
+#~ msgstr "التقييم من 1 الى 5."
+
+#~ msgid "comment is required."
+#~ msgstr "‫التعليق مطلوب."
+
+#~ msgid "comment too short."
+#~ msgstr "التعليق قصير."
+
+#~ msgid "email is required."
+#~ msgstr "‏البريد الإلكتروني مطلوب."
+
+#~ msgid "Invalid email format."
+#~ msgstr "البريد الإلكتروني غير صحيح."
+
+#~ msgid "author is required."
+#~ msgstr "‫حقل الناشر مطلوب."
+
+#~ msgid "author too short."
+#~ msgstr "‫الإسم قصير جداً."
+
+#~ msgid "review has been added"
+#~ msgstr "تم إضافة تعليقك بنجاح"
+
+#~ msgid "Review doesn't added."
+#~ msgstr "لم تتم إضافة تعليقك."
+
+#~ msgid "Unauthenticated"
+#~ msgstr "‏لم تتم المصادقة قم بتسجيل الدخول"
+
+#~ msgid "an error occured, please try again later."
+#~ msgstr "حدث خطأ ما، الرجاء المحاولة في وقت أخر."
+
+#~ msgid "Invalid country."
+#~ msgstr "الدولة غير صحيحة."
+
+#~ msgid "Invalid Email address."
+#~ msgstr "البريد الإلكتروني غير صحيح."
+
+#~ msgid "Billing details has been successfully updated."
+#~ msgstr "تم تحديث بيانات الفوترة بنجاح."
+
+#~ msgid "Billing details does not updated."
+#~ msgstr "لم ‫يتم تحديث بيانات الفوترة."
+
+#~ msgid "Shipping details does not updated."
+#~ msgstr "‫لم ‫يتم تحديث بيانات عنوان الشحن."
+
+#~ msgid "Email is not a valid email address"
+#~ msgstr "البريد الإلكتروني غير صحيح"
+
+#~ msgid "Email address already exist."
+#~ msgstr "البريد الالكتروني موجود مسبقاً."
+
+#~ msgid "The language code is invalid."
+#~ msgstr "اللغة غير مدعومة."
+
+#~ msgid "Profile has been successfully updated."
+#~ msgstr "تم تحديث بيانات الملف الشخصي بنجاح."
+
+#~ msgid "No data updated."
+#~ msgstr "لم يتم تحديث البيانات."
+
+#~ msgid "password is required."
+#~ msgstr "‫كلمة المرور مطلوبة."
+
+#~ msgid "new_password is required."
+#~ msgstr "كلمة المرور الجديدة مطلوب."
+
+#~ msgid "confirm_password is required."
+#~ msgstr "‏الرجاء تأكيد كلمة المرور."
+
+#~ msgid "New password and confirmation password do not match."
+#~ msgstr "كلمة المرور الجديدة غير مطابقة."
+
+#~ msgid "Password has been successfully updated."
+#~ msgstr "تم تحديث كلمة المرور بنجاح."
+
+#~ msgid "Password mismatch."
+#~ msgstr "كلمة المرور غير صحيحة."
+
+#~ msgid "Deletion confirmation code is required."
+#~ msgstr "يجب ادخال رمز تأكيد الحذف."
+
+#~ msgid "Deletion confirmation code mismatch."
+#~ msgstr "رمز تأكيد الحذف غير متطابق."
+
+#~ msgid ""
+#~ "Your account is in the administrator role and cannot be deleted by the app."
+#~ msgstr "حسابك في دور المسؤول ولا يمكن حذفه بواسطة التطبيق."
+
+#~ msgid "Your account has been deleted"
+#~ msgstr "تم حذف حسابك بنجاح"
+
+#~ msgid "Your account cannot be deleted, please contact us."
+#~ msgstr "لا يمكن حذف حسابك ، يرجى الاتصال بنا."
+
+#~ msgid "Customer has been registered successfully."
+#~ msgstr "تم التسجيل بنجاح."
+
+#~ msgid "Method not allowed"
+#~ msgstr "نوع الطلب غير مسموح به"
+
+#~ msgid "Resource not found"
+#~ msgstr "المصدر غير موجود"
+
+#~ msgid "Refund"
+#~ msgstr "إعادة المبلغ"
+
+#~ msgid "API Key is required"
+#~ msgstr "مفتاح API مطلوب"
+
+#~ msgid "Device identifier key is required"
+#~ msgstr "معرف الجهاز مطلوب"
+
+#~ msgid "Authentication failed"
+#~ msgstr "‏فشلت عملية المصادقة"
+
+#~ msgid "We are currently performing maintenance and will be back shortly."
+#~ msgstr "نحن نجري صيانة حاليا وسنعود قريبا."
+
+#~ msgid "The specified resource does not exist"
+#~ msgstr "رابط الطلب غير موجود"
+
+#~ msgid "Access denied, Invalid JWT Secret key"
+#~ msgstr "رفض الطلب، الرمز السري JWT غير صحيح"
+
+#~ msgid "Access denied, JWT disabled"
+#~ msgstr "رفض الطلب، JWT غير مفعل"
+
+#~ msgid "Access forbidden, You don't have permission for this endpoint"
+#~ msgstr "تم رفض الوصول ، ليس لديك إذن للوصول للرابط"
+
+#~ msgid "You do not have permission to access"
+#~ msgstr "ليس لديك إذن للدخول"
+
+#~ msgid "Invalid credentials"
+#~ msgstr "بيانات الدخول غير صحيحة"
+
+#~ msgid "Password too short. minimum length is 6 characters"
+#~ msgstr "كلمة المرور قصيرة جدا، أقل عدد أحرف 6 حروف"
+
+#~ msgid "Invalid Email address"
+#~ msgstr "البريد الإلكتروني غير صحيح"
+
+#~ msgid "Username already exist."
+#~ msgstr "البريد الالكتروني موجود مسبقاً."
+
+#~ msgid "user could not be created."
+#~ msgstr "لايمكن تسجيل المستخدم."
+
+#~ msgid "Your account has been created!"
+#~ msgstr "تم إنشاء الحساب الخاص بك!"
+
+#, php-format
+#~ msgid "Hi <strong>%s</strong>,"
+#~ msgstr "مرحبا <strong>%s</strong>،"
+
+#, php-format
+#~ msgid ""
+#~ "Thanks for creating an account on (%1$s). You can access your account to "
+#~ "view orders, change your password and more."
+#~ msgstr ""
+#~ "‫لقد قمت بإبنشاء حساب على (%1$s). يُمكنك الوصول إلى حسابك لمشاهدة الطلبات، "
+#~ "وتغيير كلمة المرور الخاصة بك."
+
+#~ msgid "Thanks."
+#~ msgstr "شكرا لك."
+
+#~ msgid "Password reset request successfully sent"
+#~ msgstr "تم إرسال طلب إعادة تعيين كلمة المرور بنجاح"
+
+#~ msgid "Invalid username or email"
+#~ msgstr "اسم المستخدم او البريد الإلكتروني غير صحيح"
+
+#~ msgid "Password reset is not allowed for this user"
+#~ msgstr "استرجاع كلمة المرور غير مسموح به للمستخدم"
+
+#, php-format
+#~ msgid "Hi %s,"
+#~ msgstr "مرحبًا %s,"
+
+#, php-format
+#~ msgid "Someone has requested a new password for the following account on %s:"
+#~ msgstr "طلب أحد الأشخاص كلمة مرور جديدة للحساب التالي على %s:"
+
+#, php-format
+#~ msgid "Username: %s"
+#~ msgstr "المستخدم:  %s"
+
+#~ msgid ""
+#~ "If you didn't make this request, just ignore this email. If you'd like to "
+#~ "proceed:"
+#~ msgstr ""
+#~ "إذا لم تُقدِّم هذا الطلب، فما عليك سوى تجاهل هذا البريد الإلكتروني. إذا كنت "
+#~ "ترغب في المتابعة:"
+
+#~ msgid "Click here to reset your password"
+#~ msgstr "إضغط هنا لإعادة تعيين كلمة المرور"
+
+#~ msgid "Password Reset"
+#~ msgstr "استرجاع كلمة المرور"
+
+#~ msgid "Email address does not exist."
+#~ msgstr "البريد الإلكتروني غير موجود."
+
+#~ msgid "You can't upload the avatar try again or with another photo"
+#~ msgstr "لا يمكنك تحميل الصورة الشخصية حاول مع صورة أخرى"
+
+#~ msgid "The uploaded file is not a valid image. Please try again."
+#~ msgstr "امتداد الصورة الذي قمت بتحميلها ليس مسموح به. حاول مرة اخرى."
+
+#~ msgid ""
+#~ "The size of the uploaded image is too large, try with a smaller image size."
+#~ msgstr "حجم الصورة الشخصية كبير جدًا ، حاول باستخدام حجم صورة أصغر."
+
+#, php-format
+#~ msgid ""
+#~ "Please enter key: <strong>%s</strong> to complete reset password process."
+#~ msgstr ""
+#~ "الرجاء إدخال الرمز: <strong>%s</strong> لإكمال عملية إعادة تعيين كلمة "
+#~ "المرور."
+
+#~ msgid "Social login provider is not supported"
+#~ msgstr "مزود تسجيل الدخول الاجتماعي غير مسموح به"
+
+#~ msgid "Invalid social login"
+#~ msgstr "تسجيل الدخول باستخدام الشبكة الاجتماعية غير صحيح"
+
+#~ msgid "customer_id is required."
+#~ msgstr "الرجاء إدخال بيانات المستخدم."
+
+#, fuzzy
+#~| msgid "No data updated."
+#~ msgid "Nothing to update."
+#~ msgstr "لم يتم تحديث البيانات."
+
+#, fuzzy
+#~| msgid "You do not have permission to access"
+#~ msgid "This box does not have read permissions."
+#~ msgstr "ليس لديك إذن للدخول"
+
+#, fuzzy
+#~| msgid "You do not have permission to access"
+#~ msgid "This box does not have write permissions."
+#~ msgstr "ليس لديك إذن للدخول"
+
+#, php-format
+#~ msgid "Hi %s"
+#~ msgstr "مرحبًا %s"
+
+#~ msgid "Login Details"
+#~ msgstr "بيانات الدخول"
+
+#~ msgid "email is not a valid email address."
+#~ msgstr "البريد الإلكتروني غير صحيح"
+
+#~ msgid "\"New password and confirmation password do not match."
+#~ msgstr "كلمة المرور الجديدة غير مطابقة"
+
+#~ msgid "Advertisement does not exist."
+#~ msgstr "الإعلان غير موجود"
+
+#~ msgid "Cart Discount"
+#~ msgstr "عرض تخفيض"
+
+#~ msgid "rule_id is required."
+#~ msgstr "‫rule_id مطلوب"
+
+#~ msgid "parent_product_id is required."
+#~ msgstr "‏parent_product_id مطلوب"
+
+#~ msgid "Product has been updated"
+#~ msgstr "تم تغيير المنتج بنجاح"
+
+#~ msgid "Sorry, you are not allowed to access this order."
+#~ msgstr "لاتملك صلاحيات للوصول لهذا الطلب"
+
+#~ msgid "Please Insert order_id"
+#~ msgstr "‫order_id مطلوب"
+
+#~ msgid "Please Insert mobile_number"
+#~ msgstr "‏رقم الهاتف مطلوب"
+
+#, php-format
+#~ msgid ""
+#~ "Sorry! Total is %s LYD higher than %s maximum amount %s LYD per transaction"
+#~ msgstr "الإجمالي هو %s د.ل أعلى من %s الحد الأقصى المسموح به %s لكل معاملة"
+
+#, php-format
+#~ msgid ""
+#~ "Sorry! Total is %s LYD less than %s minimum amount %s LYD per transaction"
+#~ msgstr "الإجمالي هو %s د.ل أقل من %s الحد الادني المسموح به %s لكل معاملة"
+
+#~ msgid "Please Insert Confirmation code that received from Edfali service"
+#~ msgstr "الرجاء إدخال رمز التأكيد الذي تم استلامه من خدمة أدفعلي"
+
+#~ msgid "The mobile number is not subscribed to Adfali service"
+#~ msgstr "رقم الهاتف غير مشترك في خدمة أدفعلي"
+
+#~ msgid "Please Insert reference_number"
+#~ msgstr "‏الرقم المرجعي مطلوب"
+
+#~ msgid "Product already added in your wishlist"
+#~ msgstr "المنتج موجود بالفعل في المفضلة"
+
+#, php-format
+#~ msgid "%s has been added to wishlist."
+#~ msgstr "تمت إضافة المنتج %s للمفضلة"
+
+#, php-format
+#~ msgid "%s has been removed to wishlist."
+#~ msgstr "تم إزالة المنتج %s من المفضلة"
+
+#~ msgid "Product is not exist in wishlist"
+#~ msgstr "المنتج غير موجود في المفضلة"
+
+#~ msgid "Wishlist has been cleared."
+#~ msgstr "تم مسح المفضلة بنجاح"
+
+#~ msgid "an error ocuerd"
+#~ msgstr "خطأ غير متوقع"
+
+#~ msgid "Wishlist already empty."
+#~ msgstr "قائمة المفضلة فارغة"
+
+#~ msgid "Agora"
+#~ msgstr "Agora"
+
+#, fuzzy
+#~| msgid "Advertisement does not exist."
+#~ msgid "Advertisements"
+#~ msgstr "الإعلان غير موجود"
+
+#, fuzzy
+#~| msgid "Advertisement does not exist."
+#~ msgid "All Advertisements Tax"
+#~ msgstr "الإعلان غير موجود"
+
+#, fuzzy
+#~| msgid "Advertisement does not exist."
+#~ msgid "Edit Advertisements Tax"
+#~ msgstr "الإعلان غير موجود"
+
+#, fuzzy
+#~| msgid "Advertisement does not exist."
+#~ msgid "New Advertisements Tax Name"
+#~ msgstr "الإعلان غير موجود"
+
+#~ msgid "Order ID is invalid. Order does not exist"
+#~ msgstr "رقم الطلب غير صحيح."
+
+#~ msgid "Your Payment Has Been Received, Thanks!"
+#~ msgstr "تم إستلام القيمة المالية بنجاح، شكراً"
+
+#~ msgid "Your Payment Has Been Received"
+#~ msgstr "تم دفع قيمة الطلب الخاص بكم بنجاح"
+
+#~ msgid ""
+#~ "RESTful API allows you to connect WooCommerce with native mobile "
+#~ "applications."
+#~ msgstr ""
+#~ "RESTful API allows you to connect WooCommerce with native mobile "
+#~ "applications."
+
+#~ msgid "https://libyanspider.com"
+#~ msgstr "https://libyanspider.com"
+
+#~ msgid "Mohamed Endisha"
+#~ msgstr "Mohamed Endisha"

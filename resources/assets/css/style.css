@@ -1,0 +1,196 @@
+.small {
+  font-size: 10px;
+}
+
+.alignleft .button {
+  margin: 0 5px;
+}
+.alignleft .button .dashicons {
+  line-height: 1.4em;
+}
+
+.button.button-reset,
+.button.add {
+  color: #fff;
+  border-color: #b90505;
+  background: #b90505;
+}
+.button.button-reset:hover,
+.button.add:hover {
+  border-color: #c50909;
+  background: #1f9805;
+}
+
+.label {
+  display: block;
+  width: 90%;
+  text-align: center;
+  padding: 3px 5px;
+  color: #fff;
+  border-radius: 3px;
+}
+.label.label-default {
+  background: #607d8b;
+}
+.label.label-cancelled {
+  background: #5e5e5e;
+}
+.label.label-pending {
+  background: #e3a00b;
+}
+.label.label-failed {
+  background: #e02215;
+}
+.label.label-processing {
+  background: #c759b4;
+}
+.label.label-new {
+  background: #6f59b3;
+}
+.label.label-completed {
+  background: #009688;
+}
+
+input.readonly,
+input[readonly] {
+  background-color: transparent;
+  border: 0;
+  direction: ltr;
+  width: 100%;
+  text-align: left;
+  color: #000;
+  font-size: 12px;
+  padding: 0;
+}
+
+.alignleft {
+  padding-left: 10px;
+}
+[dir="rtl"] .alignleft {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.removealignleft {
+  padding: 0 !important;
+}
+
+.rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.aligned {
+  direction: ltr;
+  text-align: left;
+}
+[dir="rtl"] .aligned {
+  direction: rtl;
+  text-align: right;
+}
+
+.fade-enter-active,
+.fade-leave-active,
+.bounce-enter-active,
+.bounce-leave-active {
+  animation: bounce-in 0.5s;
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to,
+.bounce-enter-active,
+.bounce-leave-active {
+  display: none;
+}
+
+.wp-core-ui .button-active,
+.wp-core-ui .button-active:hover {
+  background: #2e9688;
+  border-color: #2e9688;
+  color: #fff;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+.spinner.is-active.spin {
+  margin: 0;
+  float: none;
+}
+
+.spinner-button {
+  background-size: 12px 12px;
+  margin-top: 2px;
+  width: 13px;
+  height: 18px;
+}
+
+.table-count {
+  padding: 5px 0;
+  display: block;
+}
+
+.notice,
+div.error,
+div.warning {
+  background: #fff;
+  border: 1px solid #c3c4c7;
+  border-left-color: #ff9966;
+  border-left-width: 4px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  margin: 5px 15px 2px;
+  padding: 1px 12px;
+}
+
+.wp-list-table.queue .column-id {
+  width: 15px;
+}
+.wp-list-table.queue .column-email {
+  width: 150px;
+}
+.wp-list-table.queue .column-status {
+  width: 50px;
+}
+.wp-list-table.queue .column-response {
+  width: 150px;
+}
+.wp-list-table.queue .column-created_at {
+  width: 60px;
+}
+.wp-list-table.queue .column-updated_at {
+  width: 60px;
+}
+.wp-list-table.queue .column-actions {
+  width: 50px;
+}
+
+@media screen and (max-width: 782px) {
+  /* Adjust layout of left-aligned elements */
+  .alignleft {
+    width: 100%;
+    padding-left: 0;
+    padding-top: 5px;
+  }
+  /* Make inline labels take up full width */
+  .alignleft .inline-label {
+    width: 100%;
+    display: block;
+  }
+  /* Ensure form controls take up full width */
+  .alignleft .form-control {
+    width: 100%;
+    display: block;
+    max-width: 100% !important;
+  }
+}
+
+@keyframes bounce-in {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.005555);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
